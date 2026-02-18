@@ -11,7 +11,7 @@
 //     menuPage = new MenuPage(page);
 //     basePage = new BasePage(page);
 
-//     basePage.open();
+//     await basePage.open();
 // });
 
 // // test.skip(({browserName})=> browserName == 'webkit', 'Skip webit');

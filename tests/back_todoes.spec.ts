@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe.only('JSONP todos test', ()=>{
+test.describe('JSONP todos test', ()=>{
 
     const postId = 1;
 

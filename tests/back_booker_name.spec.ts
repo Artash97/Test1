@@ -96,7 +96,6 @@ test.describe('Booking page test', ()=>{
         const responseAuth = await request.post('https://restful-booker.herokuapp.com/auth', {
             headers: {
                 "Content-Type": 'application/json',
-                "Cookie": 'token=abc123'
             },
 
             data: authdata         
@@ -155,8 +154,7 @@ test.describe('Booking page test', ()=>{
         const responseAuth = await request.post('https://restful-booker.herokuapp.com/auth', {
             headers: {
                 "Content-Type": 'application/json',
-                "Accept": 'application/json',
-                "Cookie": 'token=abc123'
+                "Accept": 'application/json'
             },
 
             data: authdata         
@@ -201,8 +199,7 @@ test.describe('Booking page test', ()=>{
         const responseAuth = await request.post('https://restful-booker.herokuapp.com/auth', {
             headers: {
                 "Content-Type": 'application/json',
-                "Accept": 'application/json',
-                "Cookie": 'token=abc123'
+                "Accept": 'application/json'
             },
 
             data: authdata         

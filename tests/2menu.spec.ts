@@ -16,7 +16,7 @@
 
 // // test.skip(({browserName})=> browserName == 'webkit', 'Skip webit');
 
-// test.describe('Desktop Test',()=>{
+// test.describe('Desktop Test @menu',()=>{
 
 
 //   const menus = [

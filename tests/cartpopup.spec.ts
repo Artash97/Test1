@@ -1,4 +1,4 @@
-//cart popup1 item test , 2 item test, 3 item (2 is the same)
+// cart popup1 item test , 2 item test, 3 item (2 is the same)
 
 // import {expect, test} from '@playwright/test';
 

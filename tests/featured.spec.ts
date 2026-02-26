@@ -4,7 +4,7 @@ test.beforeEach(async({page})=>{
     await page.goto('https://tutorialsninja.com/demo/index.php?route=common/home');
 });
 
-test.describe('Check Featured field', async()=>{
+test.describe('Check Featured field @featured', async()=>{
 
     test('Featured field', async({page})=>{
 

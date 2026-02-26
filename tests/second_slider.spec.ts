@@ -4,7 +4,7 @@ test.beforeEach(async({page})=>{
     await page.goto('https://tutorialsninja.com/demo/index.php?route=common/home');
 });
 
-test.describe('Second slider', async()=>{
+test.describe('Second slider @slider', async()=>{
 
     test('Check logos', async({page})=>{
 

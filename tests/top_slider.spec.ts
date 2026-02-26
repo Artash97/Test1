@@ -12,7 +12,7 @@ test.beforeEach(async({page})=>{
     await basePage.open();
 });
 
-test.describe('Top slider test', async()=>{
+test.describe('Top slider test @slider', async()=>{
 
     test('Next button test', async({page})=>{
 

@@ -83,6 +83,22 @@ jobs:
         if: ${{ github.event.inputs.test_suite == 'search' }}
         run: npx playwright test --grep @backend
 
+      - name: Run Search tests
+        if: ${{ github.event.inputs.test_suite == 'search' }}
+        run: npx playwright test --grep @slider
+
+      - name: Run Search tests
+        if: ${{ github.event.inputs.test_suite == 'search' }}
+        run: npx playwright test --grep @addtocart
+      
+      - name: Run Search tests
+        if: ${{ github.event.inputs.test_suite == 'search' }}
+        run: npx playwright test --grep @checkout
+
+      - name: Run Search tests
+        if: ${{ github.event.inputs.test_suite == 'search' }}
+        run: npx playwright test --grep @featured                                 
+
       - name: Upload Playwright report
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4

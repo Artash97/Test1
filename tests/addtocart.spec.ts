@@ -4,7 +4,7 @@ test.beforeEach(async({page})=>{
     await page.goto('https://tutorialsninja.com/demo/index.php?route=common/home');
 });
 
-test.describe('Check Add To Cart', async()=>{
+test.describe('Check Add To Cart @addtocart', async()=>{
 
     test('Check "add to cart" button', async({page})=>{
 

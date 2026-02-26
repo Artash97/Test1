@@ -11,7 +11,7 @@ test.beforeEach(async({page})=>{
 });
 
 
-test.describe('CheckOut with 2 type product', ()=>{
+test.describe('CheckOut with 2 type product @checkout', ()=>{
 
     test('Test Product number and Prices', async({page})=>{
                        

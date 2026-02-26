@@ -10,7 +10,7 @@ test.beforeEach(async({page})=>{
     await currPage.open();
 });
 
-test.describe('Check currency varations', ()=>{
+test.describe('Check currency varations @currency', ()=>{
    
     const currencies = [
         {currencyButton: '$US Dollar', symbol: '$'},

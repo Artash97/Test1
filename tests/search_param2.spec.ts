@@ -11,7 +11,7 @@ test.beforeEach(async({page})=>{
 });
 
 
-test.describe.only('Search', ()=>{
+test.describe.only('Search @search', ()=>{
 
     test('Search for mac', async({page})=>{
 

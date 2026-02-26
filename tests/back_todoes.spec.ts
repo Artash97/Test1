@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('JSONP todos test', ()=>{
+test.describe('JSONP todos test @backend', ()=>{
 
     const postId = 1;
 

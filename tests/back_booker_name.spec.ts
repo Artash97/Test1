@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Booking page test', ()=>{
+test.describe('Booking page test @backend', ()=>{
 
     test('GET bookingid`s from booker', async({request})=>{
 
